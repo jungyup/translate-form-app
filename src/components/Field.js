@@ -3,6 +3,8 @@ import LanguageContext from '../contexts/LanguageContext';
 
 class Field extends React.Component {
     
+    // hook up context object to a class component
+    // has to be called contextType
     static contextType = LanguageContext;
 
     render() {
